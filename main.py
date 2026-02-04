@@ -7,6 +7,8 @@
 # https://www.aramcoworld.com/Articles/January-2022/Art-of-Islamic-Patterns-Alicatado
 # 要執行本程式, 請按上方run▶
 #
+import matplotlib
+matplotlib.use('TkAgg')
 import numpy as np
 # 載入繪圖模組 pyplot, 重新命名為 plt
 import matplotlib.pyplot as plt
@@ -442,4 +444,4 @@ plt.savefig("./png/fig-11B.png",format="png",dpi=150)
 print('done')
 print('view output tab ...')
 print('Press Stop to exit')
-# plt.show()  # Not needed - figures are saved to ./png/ folder
+plt.show()

@@ -1,5 +1,6 @@
 {pkgs}: {
   deps = [
+    pkgs.python311Packages.tkinter
     pkgs.geos
     pkgs.tk
     pkgs.tcl
