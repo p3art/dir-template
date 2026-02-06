@@ -2,7 +2,21 @@
 # template-TkAgg-VNC
 #
 # 2026-02-06
-# This project use 166 MB of disk storage.
+
+"""
+Project files : 166 MB (your code, etc.)
+
+Total disk used on this machine: about 36 GB out of 74 GB available
+The 36 GB total includes everything: 
+    your project files, 
+    installed packages, 
+    the system environment,
+    language toolchains. 
+
+Your actual project files are only a small portion of that. 
+Most of the space is taken up by the underlying system and 
+installed tools/packages.
+"""
 #
 # 要執行本程式, 請按上方run▶
 #
