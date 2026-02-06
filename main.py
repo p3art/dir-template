@@ -2,6 +2,7 @@
 # template-TkAgg-VNC
 #
 # 2026-02-06
+# This project use 166 MB of disk storage.
 #
 # 要執行本程式, 請按上方run▶
 #
