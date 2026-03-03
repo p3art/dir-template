@@ -18,13 +18,13 @@ Most of the space is taken up by the underlying system and installed tools/packa
 This project is currently using 166 MB of disk storage.
 Your actual code and libraries are only about 11 MB total.
 
-What	    Size	What it is
+What        Size        What it is
 ----------------------------------------------------------
-.cache	    154 MB	Temporary files created by your tools/packages (like pip/uv cache)
-.git	    2.4 MB	Version history of your project
-.pythonlibs	11 MB	Installed Python libraries your code depends on
+.cache      154 MB      Temporary files created by your tools/packages (like pip/uv cache)
+.git        2.4 MB      Version history of your project
+.pythonlibs     11 MB   Installed Python libraries your code depends on
 Your code 
-+ config	~100 KB	Your actual project files
++ config        ~100 KB Your actual project files
 
 So 154 MB (93%) of the space is just cached files that your package manager stores to speed things up. 
 
@@ -49,7 +49,7 @@ print('')
 # /home/runner/workspace/
 total, used, free = shutil.disk_usage("/home")
 print("/home directory...")
-print('< disk usag >')
+print('< disk usage >')
 print("Total: %d GiB" % (total // (2**30)))
 print(" Used: %d GiB" % (used  // (2**30)))
 print(" Free: %d GiB" % (free  // (2**30)))
