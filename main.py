@@ -159,11 +159,10 @@ plt.gca().set_aspect('equal', adjustable='box')
 #
 plt.savefig('./png/graphic.png', dpi=150)
 #
-plt.show()
-#
 print(' ')
 print('done')
 print('view VNC tab ...')
 print('Press Stop to exit')
 #
+plt.ioff()
 plt.show()
