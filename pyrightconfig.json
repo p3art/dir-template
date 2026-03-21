@@ -1,5 +1,6 @@
 {
-  "venvPath": ".",
-  "venv": ".pythonlibs",
-  "pythonVersion": "3.11"
+  "pythonVersion": "3.11",
+  "extraPaths": [
+    ".pythonlibs/lib/python3.11/site-packages"
+  ]
 }
