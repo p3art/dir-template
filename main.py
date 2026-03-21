@@ -130,7 +130,6 @@ def motif_fill(LS, color, ZORDER, Alpha) :
 #
 r0 = 12
 tup7 = set_graphic_area(r0, r0)  
-plt.ion()
 fig = plt.figure(figsize=(tup7[0], tup7[1])) # 呼叫 pyplot.figure(), 建立一個圖表物件, 並成為目前圖表物件
 ax = fig.add_subplot(1,1,1)   # 圖表的繪圖區域被分為1個子圖, 1 row, 1 column, plot to index 1
 fig.subplots_adjust(
@@ -164,5 +163,4 @@ print('done')
 print('view VNC tab ...')
 print('Press Stop to exit')
 #
-plt.ioff()
 plt.show()
