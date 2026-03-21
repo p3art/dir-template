@@ -5,7 +5,11 @@
 # 用於繪製圖形的 Python 模板
 
 """
-The "Cannot resolve imported module" message is just an editor hint,
+The "Cannot resolve imported module" message is just an editor hint.
+The packages are installed in .pythonlibs but the editor's language server doesn't know to look there. I'll create a config file that points it to the right location.
+I've added a pyrightconfig.json file that tells the editor exactly where your installed packages live (.pythonlibs). The red ripple lines under your import and from statements should disappear
+
+# -------------------------------------------------
 
 Total disk used on this machine: about 36 GB out of 74 GB available
 The 36 GB total includes everything: 
