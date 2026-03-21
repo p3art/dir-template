@@ -5,6 +5,8 @@
 # 用於繪製圖形的 Python 模板
 
 """
+The "Cannot resolve imported module" message is just an editor hint,
+
 Total disk used on this machine: about 36 GB out of 74 GB available
 The 36 GB total includes everything: 
     your project files, 
