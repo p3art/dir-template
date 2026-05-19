@@ -1,7 +1,0 @@
-{
-  "pythonVersion": "3.11",
-  "pythonPath": "/home/runner/workspace/.pythonlibs/bin/python",
-  "extraPaths": [
-    "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages"
-  ]
-}
