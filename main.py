@@ -2,6 +2,8 @@
 # Template-for-Python-with-TkAgg-VNC
 #
 # 2026-02-06
+# 2026-05-19
+#
 # 用於繪製圖形的 Python 模板
 
 """
