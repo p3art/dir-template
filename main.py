@@ -6,8 +6,11 @@
 
 """
 The "Cannot resolve imported module" message is just an editor hint.
-The packages are installed in .pythonlibs but the editor's language server doesn't know to look there. I'll create a config file that points it to the right location.
-I've added a pyrightconfig.json file that tells the editor exactly where your installed packages live (.pythonlibs). The red ripple lines under your import and from statements should disappear
+To make the red ripple lines under your import and from statements disappear, simply tell me:
+
+"Reinstall the packages using the proper package manager"
+
+That's all. The key was using Replit's built-in uv package manager instead of plain pip install. It properly recreates the .pythonlibs environment and links everything so the editor's language server can find the packages and remove the red ripple lines.
 
 # -------------------------------------------------
 
